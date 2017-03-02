@@ -1,0 +1,72 @@
+$color: #34495e;
+body {
+	background: $color;
+	font-family: 'Raleway', sans-serif;
+	#quote-box {
+		background: white;
+		border-radius: 3px;
+		text-align: center;
+		width: 50%;
+		margin: 0 auto;
+		.container {
+			width: 80%;
+			margin: 0 auto;
+			.quote {
+				color: $color;
+				font-size: 24px;
+				padding: 20px 0 10px;
+				font-weight: 400;
+			}
+			.author {
+				text-align: right;
+				color: $color;
+				font-weight: 100;
+				font-size: 12px;
+			}
+			.bottom-container {
+
+					#tweet {
+						font-size: 36px;
+						float: left;
+						vertical-align: top;
+						text-align: left;
+						position: relative;
+					    bottom: 0px;
+					    left: 10px;
+						.fa {
+						    display: inline-block;
+						    font: normal normal normal 14px/1 FontAwesome;
+						    font-size: inherit;
+						    text-rendering: auto;
+						    -webkit-font-smoothing: antialiased;
+						    -moz-osx-font-smoothing: grayscale;
+						    color: $color;
+						}
+						.fa-twitter:before {
+						    content: "\f099";
+						}
+					}
+					.new-quote {
+						vertical-align: top;
+						height: 30px;
+						margin: 6px 0 0 0;
+					    border: none;
+					    border-radius: 3px;
+					    color: #fff;
+					    background-color: $color;
+					    outline: none;
+					    font-size: 0.85em;
+					    padding: 8px 18px 6px 18px;
+					    opacity: 1;
+					    cursor: pointer;
+					    float: right;
+					}
+					.clear {
+						clear: both;
+					}
+			}
+			
+		} // container
+	}
+	
+}

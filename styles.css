@@ -1,0 +1,56 @@
+body {
+  background: #34495e;
+  font-family: 'Raleway', sans-serif; }
+  body #quote-box {
+    background: white;
+    border-radius: 3px;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto; }
+    body #quote-box .container {
+      width: 80%;
+      margin: 0 auto; }
+      body #quote-box .container .quote {
+        color: #34495e;
+        font-size: 24px;
+        padding: 20px 0 10px;
+        font-weight: 400; }
+      body #quote-box .container .author {
+        text-align: right;
+        color: #34495e;
+        font-weight: 100;
+        font-size: 12px; }
+      body #quote-box .container .bottom-container #tweet {
+        font-size: 36px;
+        float: left;
+        vertical-align: top;
+        text-align: left;
+        position: relative;
+        bottom: 0px;
+        left: 10px; }
+        body #quote-box .container .bottom-container #tweet .fa {
+          display: inline-block;
+          font: normal normal normal 14px/1 FontAwesome;
+          font-size: inherit;
+          text-rendering: auto;
+          -webkit-font-smoothing: antialiased;
+          -moz-osx-font-smoothing: grayscale;
+          color: #34495e; }
+        body #quote-box .container .bottom-container #tweet .fa-twitter:before {
+          content: "\f099"; }
+      body #quote-box .container .bottom-container .new-quote {
+        vertical-align: top;
+        height: 30px;
+        margin: 6px 0 0 0;
+        border: none;
+        border-radius: 3px;
+        color: #fff;
+        background-color: #34495e;
+        outline: none;
+        font-size: 0.85em;
+        padding: 8px 18px 6px 18px;
+        opacity: 1;
+        cursor: pointer;
+        float: right; }
+      body #quote-box .container .bottom-container .clear {
+        clear: both; }
